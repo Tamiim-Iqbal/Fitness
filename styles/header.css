@@ -18,6 +18,9 @@
 .nav-links{
     display: flex;
 }
+.burger-icon{
+    display: none;
+}
 .home-btn{
     padding: 12px 24px;
     border-radius: 46px;
@@ -115,6 +118,9 @@
     border-radius: 50%;
     margin-right: 10px;
 }
+.play-icon{
+    display: none;
+}
 .videos1-text1{
     font-size: 1.5rem;
     font-weight: 900;
@@ -145,4 +151,57 @@
     font-size: 0.9rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.65);
+}
+
+/* Small Device */
+@media  screen and (max-width: 576px) {
+    .nav-links{
+        display: none;
+    }
+    .burger-icon{
+        display: block;
+    }
+    .banner-container{
+        flex-direction: column;
+        height: 970px;
+    }
+    .banner-heading{
+        margin-top: 35px;
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+    .banner-texts-container{
+        max-width: 90%;
+    }
+    .banner-text{
+        max-width: 100%;
+    }
+    .btn-primary{
+        padding: 12px 30px;
+        font-size: 1rem;
+        font-weight: 500;
+        /* margin-bottom: 50px; */
+    }
+    .videos1{
+        margin-left: 0px;
+        margin-top: -300px;
+    }
+    .play-icon{
+        display: block;
+        margin-top: 11px;
+        margin-left: 13px;
+    }
+    .videos1-text2{
+        font-size: 0.9rem;
+    }
+    .videos2{
+        margin-left: 210px;
+        margin-top: -300px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+    }
+    .videos2-text1{
+        font-size: 2rem;
+    }
+
 }
