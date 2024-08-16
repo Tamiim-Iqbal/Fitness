@@ -1,5 +1,5 @@
 .header-section-container{
-    background: linear-gradient(0.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 150%), linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 150%);
+    background: linear-gradient(0.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 200%), linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 200%);
     font-family: "Inter", sans-serif;
 }
 /* Nav Styles */
@@ -180,7 +180,6 @@
         padding: 12px 30px;
         font-size: 1rem;
         font-weight: 500;
-        /* margin-bottom: 50px; */
     }
     .videos1{
         margin-left: 0px;
