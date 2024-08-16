@@ -92,4 +92,7 @@
     .meet-images{
         grid-template-columns: repeat(1, 1fr);
     }
+    .box-1, .box-4{
+        display: none;
+    }
 }
